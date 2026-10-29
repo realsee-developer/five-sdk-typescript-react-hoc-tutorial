@@ -1,7 +1,8 @@
+// SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 import React, { Component } from "react";
 import { State } from "@realsee/five";
 import { withFive, createFiveFeature, PropTypeOfFiveFeatures } from "@realsee/five/react";
-import { compose } from "@wordpress/compose";
+import { flowRight as compose } from "lodash";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import Paper from "@mui/material/Paper";
